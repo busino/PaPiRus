@@ -29,7 +29,6 @@ fi
 if [ $PY3 -eq 1 ]; then
    apt-get install python3-pil -y
    apt-get install python3-smbus -y
-   apt-get install python3-dateutil -y
 fi
 apt-get install bc i2c-tools -y
 apt-get install fonts-freefont-ttf -y
